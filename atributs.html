@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modificar atributs HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Curs de JavaScript</h1>
+        <p>Interaccions amb elements HTML</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="contingut.html">Modificar contingut HTML</a>
+        <a href="atributs.html">Modificar atributs HTML</a>
+    </nav>
+
+    <main>
+        <h2>Modificar atributs HTML</h2>
+
+        <p>
+            Amb JavaScript podem modificar els atributs
+            dels elements HTML, com per exemple el src
+            d'una imatge.
+        </p>
+
+        <h3>Exemple pràctic</h3>
+
+        <img id="bombeta"
+             src="https://www.w3schools.com/js/pic_bulboff.gif"
+             alt="Bombeta apagada">
+
+        <br>
+
+        <button onclick="encendreBombeta()">
+            Encendre
+        </button>
+
+        <button onclick="apagarBombeta()">
+            Apagar
+        </button>
+
+        <h3>Explicació del codi</h3>
+
+        <p>
+            Quan polsem un dels botons, JavaScript modifica
+            l'atribut src de la imatge i mostra una bombeta
+            encesa o apagada.
+        </p>
+    </main>
+
+    <footer>
+        <p>Pràctica Git Flow - Curs JavaScript</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
