@@ -1,0 +1,12 @@
+PUBLICAR EN GITHUB PAGES
+
+1. Obri el repositori local i comprova que no hi haja canvis pendents: git status
+2. Canvia o crea la branca: git switch gh-pages (si ja existeix) o git switch main && git switch -c gh-pages
+3. Copia la carpeta docs d'aquest ZIP a l'arrel del repositori.
+4. git add docs
+5. git commit -m "docs: publicar documentacio de Git Flow"
+6. git push -u origin gh-pages
+7. En GitHub > Settings > Pages: Deploy from a branch, gh-pages, /docs, Save.
+8. Obri https://daniel-sarrio.github.io/practica-gitflow-javascript/
+
+ATENCIO: Els fitxers estan preparats per publicar, però encara no s'han pujat a GitHub.
