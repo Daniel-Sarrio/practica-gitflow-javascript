@@ -36,5 +36,10 @@ function restablirEstils() {
     // Tornem als estils originals
     document.getElementById("textEstils").removeAttribute("style");
 }
+function restablirText() {
+    // Tornem a mostrar el text original
+    document.getElementById("text").innerHTML =
+        "Aquest és el text original.";
+}
 
 

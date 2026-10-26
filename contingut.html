@@ -1,53 +1,18 @@
+<h3>Exemple pràctic</h3>
 
-<!DOCTYPE html>
-<html lang="ca">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modificar contingut HTML</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<p id="text">Aquest és el text original.</p>
 
-    <header>
-        <h1>Curs de JavaScript</h1>
-        <p>Interaccions amb elements HTML</p>
-    </header>
+<button onclick="canviarText()">
+    Canviar text
+</button>
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="contingut.html">Modificar contingut HTML</a>
-    </nav>
+<button onclick="restablirText()">
+    Restablir text
+</button>
 
-    <main>
-        <h2>Modificar contingut HTML</h2>
+<h3>Explicació del codi</h3>
 
-        <p>
-            Amb JavaScript podem canviar el contingut
-            d'un element HTML utilitzant innerHTML.
-        </p>
-
-        <h3>Exemple pràctic</h3>
-
-        <p id="text">Aquest és el text original.</p>
-
-        <button onclick="canviarText()">
-            Canviar text
-        </button>
-
-        <h3>Explicació del codi</h3>
-
-        <p>
-            Quan fem clic al botó, JavaScript busca
-            l'element amb id "text" i modifica el
-            seu contingut amb innerHTML.
-        </p>
-    </main>
-
-    <footer>
-        <p>Pràctica Git Flow - Curs JavaScript</p>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
-</html>
+<p>
+    Amb JavaScript podem modificar el contingut
+    d'un element HTML i també recuperar el text original.
+</p>
